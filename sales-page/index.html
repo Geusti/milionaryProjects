@@ -112,41 +112,44 @@
                         <p>Gostei muito, material top ❤️</p>
                     </div>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card extra-testimonial" style="display: none;">
                     <img src="https://ui-avatars.com/api/?name=Camila+F&background=random" alt="Avatar" class="avatar">
                     <div class="t-content">
                         <strong>Camila F.</strong>
                         <p>Minhas rearmonizações evoluíram 5 anos em apenas 2 semanas! Didática pura e sem enrolação.</p>
                     </div>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card extra-testimonial" style="display: none;">
                     <img src="https://ui-avatars.com/api/?name=Lucas+Castro&background=random" alt="Avatar" class="avatar">
                     <div class="t-content">
                         <strong>Lucas Castro</strong>
                         <p>Apliquei os acordes na mesma hora. A banda toda percebeu a diferença no som no último ensaio. Indispensável!</p>
                     </div>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card extra-testimonial" style="display: none;">
                     <img src="https://ui-avatars.com/api/?name=Amanda+Silva&background=random" alt="Avatar" class="avatar">
                     <div class="t-content">
                         <strong>Amanda Silva</strong>
                         <p>O que mais chamou atenção foi ser prático. É olhar o shape do acorde e tocar. Recomendo demais!</p>
                     </div>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card extra-testimonial" style="display: none;">
                     <img src="https://ui-avatars.com/api/?name=Rafael+Mendes&background=random" alt="Avatar" class="avatar">
                     <div class="t-content">
                         <strong>Rafael Mendes</strong>
                         <p>Trabalho como produtor e comprei por curiosidade. Fiquei impressionado com as aberturas de acordes super profissionais.</p>
                     </div>
                 </div>
-                <div class="testimonial-card">
+                <div class="testimonial-card extra-testimonial" style="display: none;">
                     <img src="https://ui-avatars.com/api/?name=Thiago+O&background=random" alt="Avatar" class="avatar">
                     <div class="t-content">
                         <strong>Thiago O.</strong>
                         <p>Eu só tocava tríades básicas e me sentia travado. Agora qualquer música soa absurdamente rica no teclado!</p>
                     </div>
                 </div>
+            </div>
+            <div class="center-btn" id="showMoreContainer" style="margin-bottom: 30px;">
+                <button id="showMoreBtn" style="background: transparent; border: 2px solid var(--primary-green); color: var(--primary-green); padding: 12px 24px; border-radius: 50px; cursor: pointer; font-weight: 800; font-family: inherit; font-size: 0.9em; text-transform: uppercase; transition: all 0.3s;">VER MAIS DEPOIMENTOS <i data-lucide="chevron-down" style="width: 18px; vertical-align: bottom; margin-left: 5px;"></i></button>
             </div>
             <div class="center-btn">
                 <a href="https://pay.cakto.com.br/uq5n37x_850182" class="cta-button pulse">QUERO TRANSFORMAR MEUS ACORDES</a>
@@ -183,6 +186,14 @@
 
     <script>
         lucide.createIcons();
+        
+        document.getElementById('showMoreBtn').addEventListener('click', function() {
+            var extras = document.querySelectorAll('.extra-testimonial');
+            extras.forEach(function(el) {
+                el.style.display = 'flex';
+            });
+            document.getElementById('showMoreContainer').style.display = 'none';
+        });
     </script>
 </body>
 </html>
