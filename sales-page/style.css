@@ -400,6 +400,7 @@ footer {
     .benefit-list li {
         text-align: left;
     }
+    .social-proof { justify-content: center; text-align: center; flex-wrap: wrap; }
 }
 @media (max-width: 500px) {
     .price { font-size: 3.2rem; }
@@ -411,4 +412,5 @@ footer {
     .card { padding: 30px 20px; }
     .pricing-card { padding: 30px 20px; }
     .icon-bubble { left: 20px; }
+    .social-proof, .social-proof-center { font-size: 0.88rem; gap: 6px; flex-wrap: wrap; text-align: center; justify-content: center; }
 }
