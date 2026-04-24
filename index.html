@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-book - Acordes Avançados</title>
+    <title>Dicionário de Acordes Avançados</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Montserrat:wght@400;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/lucide@latest"></script>
@@ -14,12 +14,12 @@
     <header class="hero">
         <div class="container hero-container">
             <div class="hero-left">
-                <span class="hero-eyebrow">CHEGOU A FERRAMENTA QUE</span>
-                <h1 class="hero-title">TODO TECLADISTA<br>PRECISA:</h1>
-                <h2 class="hero-subtitle">Dicionário de Acordes<br>Avançados!</h2>
-                <p class="hero-text">Descubra os <span class="text-orange text-bold">segredos práticos</span> que vão transformar o seu teclado hoje com acordes abertos, dezenas de cama elástica, logo nos primeiros compassos.</p>
+                <span class="hero-eyebrow">TODO TECLADISTA PRECISA DISSO</span>
+                <h1 class="hero-title">PARA SOAR<br>PROFISSIONAL</h1>
+                <h2 class="hero-subtitle">Dicionário de Acordes<br>Avançados</h2>
+                <p class="hero-text">Descubra os <span class="text-orange text-bold">atalhos práticos</span> que vão transformar seu jeito de tocar, deixando seus acordes muito mais ricos, emocionantes e profissionais — <span class="text-orange text-bold">já nos primeiros minutos.</span></p>
                 <a href="https://pay.cakto.com.br/uq5n37x_850182" class="cta-button pulse">QUERO TRANSFORMAR MEU SOM</a>
-                <p class="hero-social"><i data-lucide="users"></i> Mais de <strong>150 pessoas</strong> já adquiriram o material</p>
+                <p class="hero-social"><i data-lucide="users"></i> Mais de <strong>150 tecladistas</strong> já estão usando</p>
             </div>
             <div class="hero-right">
                 <div class="image-3d-wrapper">
@@ -35,12 +35,12 @@
             <div class="pain-card box-dark">
                 <div class="pain-icon icon-red"><i data-lucide="thumbs-down"></i></div>
                 <h3>Você sente que seus <span class="text-orange">acordes soam sempre iguais?</span></h3>
-                <p>Está cansado de tocar sempre do mesmo jeito enquanto outros músicos com menos talento se destacam por harmonias avançadas?</p>
+                <p>Cansado de tocar sempre do mesmo jeito enquanto outros músicos se destacam com harmonias mais bonitas e envolventes?</p>
             </div>
             <div class="pain-card box-dark">
                 <div class="pain-icon icon-green"><i data-lucide="thumbs-up"></i></div>
-                <h3>Esse dicionário é o que vai <span class="text-orange">diferenciar o seu som.</span></h3>
-                <p>Com ele, você vai ter os acordes que fazem qualquer música soar mais rica, profissional e inesquecível.</p>
+                <h3>Esse dicionário vai <span class="text-orange">destravar seu som</span></h3>
+                <p>Você vai aprender acordes que deixam qualquer música mais profissional, emocional e impossível de ignorar.</p>
             </div>
         </div>
     </section>
@@ -50,15 +50,15 @@
         <div class="container feature-grid">
             <div class="feature-card box-dark">
                 <img src="assets/feature-1.png" alt="Mais de 100 acordes" class="feat-img">
-                <p>Mais de <strong>100 acordes</strong> avançados para <span class="text-orange text-bold">enriquecer suas músicas.</span></p>
+                <p>Mais de <strong>320 acordes avançados</strong><br>para <span class="text-orange text-bold">elevar suas músicas</span></p>
             </div>
             <div class="feature-card box-dark">
                 <img src="assets/feature-2.png" alt="Imagens claras" class="feat-img">
-                <p>Imagens claras e objetivas – <span class="text-orange text-bold">sem enrolação técnica.</span></p>
+                <p>Visual simples e direto<br><span class="text-orange text-bold">sem teoria complicada</span></p>
             </div>
             <div class="feature-card box-dark">
                 <img src="assets/foto-aplicacao.png" alt="Aplicação imediata" class="feat-img">
-                <p>Aplicação Imediata para criar progressões incríveis. <span class="text-orange text-bold">É só olhar e aplicar!</span></p>
+                <p>Aplicação imediata<br><span class="text-orange text-bold">é aprender e tocar na hora</span></p>
             </div>
         </div>
     </section>
@@ -66,8 +66,18 @@
     <!-- Target Audience Section -->
     <section class="target-section">
         <div class="container">
-            <div class="target-banner box-dark">
-                <p><em>Ideal para todos os níveis! Seja iniciante ou experiente, esse material será seu aliado para evoluir no teclado.</em></p>
+            <div class="target-banner box-dark" id="level-banner">
+                <p><em>Ideal para qualquer nível — do iniciante ao avançado.</em></p>
+                <div class="level-progress-container">
+                    <div class="level-labels">
+                        <span>Básico</span>
+                        <span>Intermediário</span>
+                        <span>Profissional</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" id="level-progress"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -76,17 +86,17 @@
     <section class="essential-section">
         <div class="container essential-container">
             <div class="essential-left">
-                <img src="assets/foto-aplicacao.png" alt="Teclado e iPad" class="essential-img">
+                <img src="assets/essential-img.jpg" alt="Teclado e iPad" class="essential-img">
             </div>
             <div class="essential-right">
-                <h2 class="essential-title">Por que fazer acordes avançados <span class="text-orange">é ESSENCIAL?</span></h2>
+                <h2 class="essential-title">Por que aprender acordes avançados <span class="text-orange">muda tudo?</span></h2>
                 <ul class="essential-list">
-                    <li><i data-lucide="check-circle-2" class="icon-green-text"></i> <p>Eles são a diferença entre tocar ok e tocar como um profissional.</p></li>
-                    <li><i data-lucide="check-circle-2" class="icon-green-text"></i> <p>Você será mais criativo, ganhando liberdade para criar e improvisar.</p></li>
-                    <li><i data-lucide="check-circle-2" class="icon-green-text"></i> <p>Sua técnica e harmonia tocarão a alma das pessoas com harmonias únicas.</p></li>
+                    <li><i data-lucide="check-circle-2" class="icon-green-text"></i> <p>Você deixa de soar básico e começa a tocar como profissional.</p></li>
+                    <li><i data-lucide="check-circle-2" class="icon-green-text"></i> <p>Ganha liberdade para criar, improvisar e se destacar.</p></li>
+                    <li><i data-lucide="check-circle-2" class="icon-green-text"></i> <p>Seus acordes passam a transmitir sentimento de verdade.</p></li>
                 </ul>
-                <p class="essential-alert"><em>Sem esse conhecimento, você vai continuar tocando o que todo mundo toca.</em></p>
-                <p class="essential-price"><span class="text-orange text-bold">Por apenas R$17,90, você vai acelerar sua evolução e ganhar um repertório harmônico que muitos demoram ANOS para adquirir.</span></p>
+                <p class="essential-alert"><em>Sem isso, você continua tocando igual todo mundo… sem evolução real.</em></p>
+                <p class="essential-price"><span class="text-orange text-bold">Por apenas R$17,90 você acelera sua evolução e aprende o que muitos demoram anos pra descobrir.</span></p>
                 <a href="https://pay.cakto.com.br/uq5n37x_850182" class="cta-button">QUERO TRANSFORMAR MEU SOM</a>
             </div>
         </div>
@@ -95,26 +105,31 @@
     <!-- Testimonials Section -->
     <section class="testimonials-section">
         <div class="container">
-            <h2 class="test-title">Quem já adquiriu, <span class="text-orange">aprova:</span></h2>
+            <h2 class="test-title">Quem já comprou, <span class="text-orange">recomenda:</span></h2>
             <div class="testimonials-grid">
                 <div class="testimonial-card box-dark">
-                    <div class="avatar bg-green-light">JR</div>
+                    <img src="assets/avatar-1.jpg" alt="JR" class="avatar-img">
                     <div class="t-content">
                         <strong>Jefferson Rodrigues</strong>
-                        <p>Comprei o Dicionário de acordes avançados e já apliquei no culto deste domingo!</p>
+                        <p>“Mano, mudou MUITO meus acordes… agora sai sentimento de verdade!”</p>
                     </div>
                 </div>
                 <div class="testimonial-card box-dark">
-                    <div class="avatar bg-green-light">FR</div>
+                    <img src="assets/avatar-2.jpg" alt="FR" class="avatar-img">
                     <div class="t-content">
                         <strong>Fabio Ribeiro</strong>
-                        <p>Gostei muito, material top ❤️</p>
+                        <p>“Na moral, abriu minha cabeça demais kkk, meus acordes ficaram lindos.”</p>
+                    </div>
+                </div>
+                <div class="testimonial-card box-dark">
+                    <img src="assets/avatar-3.jpg" alt="LC" class="avatar-img">
+                    <div class="t-content">
+                        <strong>Lucas Castro</strong>
+                        <p>“Depois disso aqui, meu som virou outro nível… geral percebeu!”</p>
                     </div>
                 </div>
             </div>
-            <div class="center-btn" style="margin-bottom: 20px;">
-                <button class="btn-outline">VER MAIS DEPOIMENTOS <i data-lucide="chevron-down"></i></button>
-            </div>
+            
             <div class="center-btn">
                 <a href="https://pay.cakto.com.br/uq5n37x_850182" class="cta-button pulse">QUERO TRANSFORMAR MEUS ACORDES</a>
             </div>
@@ -125,10 +140,10 @@
     <section class="pricing-section">
         <div class="container">
             <div class="pricing-box box-dark">
-                <h2 class="pricing-title">Destrave seu talento<br>por tempo limitado</h2>
+                <h2 class="pricing-title">Destrave seu nível no teclado <span class="text-orange">hoje</span></h2>
                 <p class="pricing-old">De <span class="strike">R$47,90</span> por apenas:</p>
                 <h3 class="pricing-value">R$17,90!</h3>
-                <p class="pricing-social"><i data-lucide="users" class="text-orange"></i> Mais de <strong>150 pessoas</strong> já adquiriram o material</p>
+                <p class="pricing-social"><i data-lucide="users" class="text-orange"></i> Mais de <strong>150 pessoas</strong> já adquiriram</p>
                 
                 <a href="https://pay.cakto.com.br/uq5n37x_850182" class="cta-button pulse">QUERO MEU DICIONÁRIO AGORA</a>
                 
@@ -140,19 +155,31 @@
             </div>
             <div class="pricing-bottom">
                 <p><i data-lucide="check-circle" class="text-orange"></i> Pagamento 100% seguro.</p>
-                <p><i data-lucide="zap" class="text-orange"></i> Entrega Imediata no seu e-mail.</p>
+                <p><i data-lucide="zap" class="text-orange"></i> Entrega imediata no seu e-mail.</p>
             </div>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p>Desenvolvido para Tecladistas – Todos os direitos reservados | Políticas de privacidade</p>
+            <p>Teclado Raiz © 2026 – Todos os direitos reservados | Políticas de privacidade</p>
         </div>
     </footer>
 
     <script>
+        // Progress Bar
+        window.addEventListener('scroll', () => {
+            const scrollTop = window.scrollY;
+            const docHeight = document.body.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            const progressBar = document.getElementById('level-progress');
+            if(progressBar) {
+                progressBar.style.width = Math.min(Math.max(scrollPercent, 0), 100) + '%';
+            }
+        });
         lucide.createIcons();
     </script>
 </body>
 </html>
+
+
