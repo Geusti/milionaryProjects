@@ -1,216 +1,225 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dicionário de Acordes Avançados</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <link rel="icon" type="image/png" href="assets/favicon.png">
-    <!-- Meta Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1582153389623453');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1582153389623453&ev=PageView&noscript=1"
-    /></noscript>
-    <!-- End Meta Pixel Code -->
+    <title>Dicionário de Acordes de Alta Precisão | Evolua Suas Teclas</title>
+    <meta name="description" content="Domine dissonâncias e acordes sofisticados. Pare de tocar apenas tríades e adicione emoção à sua música com nosso dicionário completo.">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="noise-overlay"></div>
 
-    <!-- Hero Section -->
-    <header class="hero">
-        <div class="container hero-container">
-            <div class="hero-content">
-                <span class="badgetxt">CHEGOU A FERRAMENTA QUE</span>
-                <h1>TODO TECLADISTA PRECISA:</h1>
-                <h2>Dicionário de Acordes Avançados!</h2>
-                <p style="font-size: 1.15rem; color: #f8fafc; margin-bottom: 25px; line-height: 1.5; font-weight: 500;">Descubra os <strong class="highlight-orange">segredos práticos</strong> que vão destravar sua criatividade e fazer suas apresentações soarem de cair o queixo, logo nos <strong>primeiros compassos.</strong></p>
-                <a href="https://pay.cakto.com.br/uq5n37x_850182" class="cta-button pulse">QUERO TRANSFORMAR MEU SOM</a>
-                <p class="social-proof"><i data-lucide="users"></i> Mais de <strong>150 pessoas</strong> já adquiriram o material!</p>
+    <!-- HEADER / HERO -->
+    <header class="section hero" id="hero">
+        <div class="container hero-content">
+            <div class="badge fade-up">Para Tecladistas Iniciantes e Intermediários</div>
+            <h1 class="headline fade-up delay-1">
+                Pare de Tocar Como um Iniciante.<br>
+                <span class="highlight">Aprenda os Acordes que Trazem Emoção à Sua Música.</span>
+            </h1>
+            <p class="subheadline fade-up delay-2">
+                O Dicionário Definitivo de Acordes de Alta Precisão. Domine as dissonâncias e os acordes sofisticados em todos os tons. Deixe as tríades simples para trás.
+            </p>
+            <div class="cta-container fade-up delay-3">
+                <a href="#offer" class="btn btn-primary pulse-hover">Quero Tocar com Mais Sentimento <br><small>(Por apenas R$ 17,90)</small></a>
+                <p class="guarantee-text">⏳ Oferta especial por tempo limitado</p>
             </div>
-            <div class="hero-image">
-                <img src="assets/hero-capa.png" alt="Teclado Dicionário">
+            
+            <div class="hero-image-wrapper fade-up delay-4">
+                <div class="glow-effect"></div>
+                <img src="https://images.unsplash.com/photo-1552422535-c45813c61732?q=80&w=2070&auto=format&fit=crop" alt="Teclado premium em estúdio" class="hero-image">
             </div>
         </div>
     </header>
 
-    <!-- Comparison Section -->
-    <section class="comparison">
-        <div class="container comparison-grid">
-            <div class="card card-red">
-                <div class="icon-bubble bg-red"><i data-lucide="thumbs-down"></i></div>
-                <h3>Você sente que seus <span class="highlight-orange">acordes soam sempre iguais?</span></h3>
-                <p>Está cansado de tocar sempre do mesmo jeito e ver outros músicos recebendo os elogios por harmonias avançadas?</p>
-            </div>
-            <div class="card card-green">
-                <div class="icon-bubble bg-green"><i data-lucide="thumbs-up"></i></div>
-                <h3>Esse dicionário é o que vai <span class="highlight-orange">diferenciar o seu som.</span></h3>
-                <p>Com ele, você vai ter os acordes que farão qualquer música soar mais rica, profissional e inesquecível.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features">
-        <div class="container feature-grid">
-            <div class="feature-card">
-                <img src="assets/feature-1.png" alt="Partitura" class="feat-img">
-                <p>Mais de <span class="highlight-orange">100 acordes</span> avançados para <span class="highlight-orange">enriquecer suas músicas.</span></p>
-            </div>
-            <div class="feature-card">
-                <img src="assets/feature-2.png" alt="Funcionalidade" class="feat-img">
-                <p>Imagens claras e objetivas – <span class="highlight-orange">sem enrolação técnica.</span></p>
-            </div>
-            <div class="feature-card">
-                <img src="assets/user-photo-v2.png" alt="Tocando teclado" class="feat-img">
-                <p>Aplicação imediata para criar progressões incríveis. <span class="highlight-orange">É só olhar e aplicar!</span></p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Banner Section -->
-    <section class="banner">
+    <!-- PROBLEM & AGITATION (PAS) -->
+    <section class="section problem">
         <div class="container">
-            <div class="banner-box">
-                <p>Ideal para todos os níveis! Seja iniciante ou experiente, esse material será seu aliado para evoluir no teclado.</p>
+            <h2 class="section-title reveal">Você senta no teclado, sabe a música... <span class="dim">mas ela soa "vazia"?</span></h2>
+            
+            <div class="agitation-grid">
+                <div class="agitation-card reveal">
+                    <div class="icon">🎹</div>
+                    <h3>Preso nas Tríades</h3>
+                    <p>Ficar usando apenas acordes básicos (Dó, Fá, Sol) faz sua música soar como se estivesse sempre na estaca zero.</p>
+                </div>
+                <div class="agitation-card reveal delay-1">
+                    <div class="icon">🎧</div>
+                    <h3>Frustração ao Ouvir Outros</h3>
+                    <p>Você vê tecladistas na internet ou na sua banda tocando com uma profundidade linda, mas não consegue reproduzir igual.</p>
+                </div>
+                <div class="agitation-card reveal delay-2">
+                    <div class="icon">🧩</div>
+                    <h3>Falta de Vocabulário</h3>
+                    <p>O que separa você de um som profissional não é talento nato, é apenas conhecer a paleta de cores (acordes) certa.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Essential Section -->
-    <section class="essential">
-        <div class="container essential-container">
-            <div class="essential-image-wrapper">
-                <div class="glow-bg"></div>
-                <img src="assets/user-photo-v2.png" alt="Por que é essencial" class="essential-img">
-            </div>
-            <div class="essential-content">
-                <h2>Por que fazer acordes avançados <span class="highlight-orange">é ESSENCIAL?</span></h2>
+    <!-- SOLUTION INTRODUCTION -->
+    <section class="section solution" id="solution">
+        <div class="container solution-content">
+            <div class="solution-text reveal">
+                <div class="badge badge-accent">A Solução</div>
+                <h2 class="section-title">Apresentando o Dicionário de Acordes de Alta Precisão.</h2>
+                <p class="lead-text">
+                    Um mapa visual e direto ao ponto. Ele mostra as posições exatas dos acordes sofisticados que transformam qualquer música simples em uma performance inesquecível.
+                </p>
                 <ul class="benefit-list">
-                    <li><i data-lucide="check-circle-2" class="text-green"></i> Eles são a diferença entre tocar básico e tocar como um profissional.</li>
-                    <li><i data-lucide="check-circle-2" class="text-green"></i> Você se tornará o músico que as lendas convidam para tocar e gravar.</li>
-                    <li><i data-lucide="check-circle-2" class="text-green"></i> Sua técnica e harmonia tocarão a alma das pessoas com harmonias ricas.</li>
+                    <li><span class="check">✓</span> Abandone os acordes engessados.</li>
+                    <li><span class="check">✓</span> Traga arranjos belíssimos para sua igreja ou banda.</li>
+                    <li><span class="check">✓</span> Surpreenda quem te ouve tocar.</li>
                 </ul>
-                <p class="essential-text">Sem esse conhecimento, você vai continuar tocando o que todo mundo toca.</p>
-                <p class="essential-price">Por apenas R$17,90, você vai acelerar sua evolução e ganhar um repertório harmônico que muitos demoram ANOS para adquirir.</p>
-                <a href="https://pay.cakto.com.br/uq5n37x_850182" class="cta-button">QUERO TRANSFORMAR MEU SOM</a>
+            </div>
+            <div class="solution-image-container reveal delay-1">
+                <img src="https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?q=80&w=2070&auto=format&fit=crop" alt="Pessoa estudando acordes" class="floating-image">
             </div>
         </div>
     </section>
 
-    <!-- Testimonials -->
-    <section class="testimonials">
+    <!-- FEATURES & BENEFITS -->
+    <section class="section features">
         <div class="container">
-            <h2>Quem já adquiriu, <span class="highlight-orange">aprova:</span></h2>
-            <div class="testimonial-grid">
-                <!-- Decorative fake testimonials using a general avatar -->
-                <div class="testimonial-card">
-                    <img src="https://ui-avatars.com/api/?name=Jefferson+Rodrigues&background=random" alt="Avatar" class="avatar">
-                    <div class="t-content">
-                        <strong>Jefferson Rodrigues</strong>
-                        <p>Comprei o Dicionário de acordes avançados e já apliquei no culto deste domingo!</p>
+            <h2 class="section-title text-center reveal">Tudo Que Você Precisa Para Evoluir Rápido</h2>
+            
+            <div class="feature-timeline">
+                <div class="feature-row reveal">
+                    <div class="feature-content">
+                        <h3>Acordes em Todos os Tons</h3>
+                        <p>Nunca mais trave ou fique confuso quando precisar tocar uma música que tenha sustenidos ou bemóis. Mapeamos todas as tonalidades para você ter confiança absoluta em qualquer situação.</p>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <img src="https://ui-avatars.com/api/?name=Fabio+Ribeiro&background=random" alt="Avatar" class="avatar">
-                    <div class="t-content">
-                        <strong>Fabio Ribeiro</strong>
-                        <p>Gostei muito, material top ❤️</p>
+                
+                <div class="feature-row reverse reveal">
+                    <div class="feature-content">
+                        <h3>Dissonantes e Extensões Descomplicados</h3>
+                        <p>Aprenda a aplicar acordes com 7M, 9, 11 e 13. É isso que adiciona a "cor" e a emoção de arrepiar que hoje faltam na sua execução. Deixe o som de "iniciante" no passado.</p>
                     </div>
                 </div>
-                <div class="testimonial-card extra-testimonial" style="display: none;">
-                    <img src="https://ui-avatars.com/api/?name=Camila+F&background=random" alt="Avatar" class="avatar">
-                    <div class="t-content">
-                        <strong>Camila F.</strong>
-                        <p>Minhas rearmonizações evoluíram 5 anos em apenas 2 semanas! Didática pura e sem enrolação.</p>
+
+                <div class="feature-row reveal">
+                    <div class="feature-content">
+                        <h3>Visualização Visual Claro</h3>
+                        <p>Não quer ler teoria complexa? Nós mostramos as teclas exatas onde colocar os dedos. Aplicação 100% prática e imediata no seu teclado ou piano digital.</p>
                     </div>
                 </div>
-                <div class="testimonial-card extra-testimonial" style="display: none;">
-                    <img src="https://ui-avatars.com/api/?name=Lucas+Castro&background=random" alt="Avatar" class="avatar">
-                    <div class="t-content">
-                        <strong>Lucas Castro</strong>
-                        <p>Apliquei os acordes na mesma hora. A banda toda percebeu a diferença no som no último ensaio. Indispensável!</p>
-                    </div>
-                </div>
-                <div class="testimonial-card extra-testimonial" style="display: none;">
-                    <img src="https://ui-avatars.com/api/?name=Amanda+Silva&background=random" alt="Avatar" class="avatar">
-                    <div class="t-content">
-                        <strong>Amanda Silva</strong>
-                        <p>O que mais chamou atenção foi ser prático. É olhar o shape do acorde e tocar. Recomendo demais!</p>
-                    </div>
-                </div>
-                <div class="testimonial-card extra-testimonial" style="display: none;">
-                    <img src="https://ui-avatars.com/api/?name=Rafael+Mendes&background=random" alt="Avatar" class="avatar">
-                    <div class="t-content">
-                        <strong>Rafael Mendes</strong>
-                        <p>Trabalho como produtor e comprei por curiosidade. Fiquei impressionado com as aberturas de acordes super profissionais.</p>
-                    </div>
-                </div>
-                <div class="testimonial-card extra-testimonial" style="display: none;">
-                    <img src="https://ui-avatars.com/api/?name=Thiago+O&background=random" alt="Avatar" class="avatar">
-                    <div class="t-content">
-                        <strong>Thiago O.</strong>
-                        <p>Eu só tocava tríades básicas e me sentia travado. Agora qualquer música soa absurdamente rica no teclado!</p>
-                    </div>
-                </div>
-            </div>
-            <div class="center-btn" id="showMoreContainer" style="margin-bottom: 30px;">
-                <button id="showMoreBtn" style="background: transparent; border: 2px solid var(--primary-green); color: var(--primary-green); padding: 12px 24px; border-radius: 50px; cursor: pointer; font-weight: 800; font-family: inherit; font-size: 0.9em; text-transform: uppercase; transition: all 0.3s;">VER MAIS DEPOIMENTOS <i data-lucide="chevron-down" style="width: 18px; vertical-align: bottom; margin-left: 5px;"></i></button>
-            </div>
-            <div class="center-btn">
-                <a href="https://pay.cakto.com.br/uq5n37x_850182" class="cta-button pulse">QUERO TRANSFORMAR MEUS ACORDES</a>
             </div>
         </div>
     </section>
 
-    <!-- Pricing / Footer -->
-    <section class="pricing">
+    <!-- SOCIAL PROOF -->
+    <section class="section social-proof">
+        <div class="container">
+            <h2 class="section-title text-center reveal">Quem Já Usa, Comprova a Evolução</h2>
+            
+            <div class="proof-grid">
+                <!-- WhatsApp Mockup -->
+                <div class="proof-card whatsapp reveal">
+                    <div class="wa-header">
+                        <div class="wa-avatar">A</div>
+                        <div class="wa-name">Aluno (João)</div>
+                    </div>
+                    <div class="wa-body">
+                        <div class="wa-msg">Cara, que material incrível! Eu só tocava as tríades secas na igreja. Esse fim de semana apliquei uns acordes com 9ª e o pessoal até elogiou o som! 🙏🎹</div>
+                        <div class="wa-time">14:32</div>
+                    </div>
+                </div>
+
+                <!-- Audio Proof Placeholder -->
+                <div class="proof-card audio reveal delay-1">
+                    <div class="audio-label">Ouça a diferença (Antes vs Depois)</div>
+                    <div class="audio-player mockup-audio">
+                        <button class="play-btn">▶</button>
+                        <div class="waveform-placeholder"></div>
+                        <span class="time">0:00 / 0:45</span>
+                    </div>
+                    <p class="audio-desc">"O Dicionário destravou minha forma de harmonizar. É muito direto ao ponto."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OFFER STACK -->
+    <section class="section offer" id="offer">
+        <div class="container">
+            <div class="offer-box reveal">
+                <h2 class="offer-title">Sua Jornada Para o Próximo Nível Começa Aqui</h2>
+                <p class="offer-text">
+                    Aprender todos esses acordes por conta própria, pagando aulas mensais caríssimas de harmonia, levaria meses e custaria centenas de reais.
+                </p>
+                <div class="price-stack">
+                    <p class="old-price">Preço Normal: <del>R$ 45,90</del></p>
+                    <div class="new-price-box">
+                        <span class="price-label">Somente Hoje:</span>
+                        <span class="price-value">R$ 17,90</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="btn btn-primary btn-large pulse-hover">Liberar Meu Acesso Agora</a>
+                
+                <div class="security-badges">
+                    <span>🔒 Compra 100% Segura</span>
+                    <span>⚡ Acesso Imediato</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OBJECTION HANDLING -->
+    <section class="section faq">
+        <div class="container">
+            <h2 class="section-title text-center reveal">Ainda tem dúvidas?</h2>
+            <div class="faq-accordion">
+                <div class="faq-item reveal">
+                    <button class="faq-question">Eu só sei o básico de cifras. Vai servir pra mim?</button>
+                    <div class="faq-answer">
+                        <p>Sim! O dicionário foi feito pensando justamente em quem quer dar o próximo passo. Mostramos a cifra do acorde e a posição exata nas teclas. Não é necessário nenhum conhecimento de teoria musical avançada.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item reveal">
+                    <button class="faq-question">Eu preciso saber ler partitura?</button>
+                    <div class="faq-answer">
+                        <p>Não. Você não precisa saber ler partituras. O foco é nas cifras e no aspecto visual (posição exata dos dedos nas teclas), para que você aplique tudo de forma rápida e intuitiva.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item reveal">
+                    <button class="faq-question">Como recebo o acesso?</button>
+                    <div class="faq-answer">
+                        <p>Logo após a confirmação do pagamento, você recebe imediatamente no seu e-mail o link para baixar o material completo. Tudo digital e na hora.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="section final-cta">
         <div class="container text-center">
-            <div class="pricing-card">
-               <h2>Destrave seu talento<br>por tempo limitado</h2>
-               <div class="old-price-big">De <s>R$47,90</s> por apenas:</div>
-               <div class="price">R$17,90!</div>
-               <p class="social-proof-center"><i data-lucide="users" class="text-orange"></i> Mais de <strong>150 pessoas</strong> já adquiriram o material!</p>
-               <a href="https://pay.cakto.com.br/uq5n37x_850182" class="cta-button pulse">QUERO MEU DICIONÁRIO AGORA</a>
-               
-               <div class="badges">
-                   <span><i data-lucide="shield-check" class="text-orange"></i> Compra Segura</span>
-                   <span><i data-lucide="star" class="text-orange"></i> Satisfação Garantida</span>
-                   <span><i data-lucide="lock" class="text-orange"></i> Privacidade Protegida</span>
-               </div>
-            </div>
-            <div class="guarantees">
-                <p><i data-lucide="check-circle" class="text-orange"></i> Pagamento 100% seguro.</p>
-                <p><i data-lucide="zap" class="text-orange"></i> Entrega Imediata no seu e-mail.</p>
-            </div>
+            <h2 class="section-title reveal">Não deixe seu talento estacionar nas tríades.</h2>
+            <p class="lead-text reveal">Você está a poucos passos de transformar a sonoridade do seu teclado.</p>
+            <a href="#offer" class="btn btn-primary btn-large reveal">Quero Meu Dicionário Agora</a>
         </div>
     </section>
 
     <footer>
-        <p>Desenvolvido para Tecladistas – Todos os direitos reservados | Políticas de privacidade</p>
+        <div class="container text-center">
+            <p>&copy; 2026 Dicionário de Acordes de Alta Precisão. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Privacidade</a>
+            </div>
+        </div>
     </footer>
 
-    <script>
-        lucide.createIcons();
-        
-        document.getElementById('showMoreBtn').addEventListener('click', function() {
-            var extras = document.querySelectorAll('.extra-testimonial');
-            extras.forEach(function(el) {
-                el.style.display = 'flex';
-            });
-            document.getElementById('showMoreContainer').style.display = 'none';
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
